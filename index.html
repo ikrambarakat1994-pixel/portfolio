@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yamen Barakat | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Yamen Barakat featuring projects, skills, and contact details."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <a href="#home" class="logo">Yamen<span>Barakat</span></a>
+        <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-content">
+          <div>
+            <p class="kicker">Software Engineer • Problem Solver • Builder</p>
+            <h1>Hi, I’m <span>Yamen Barakat</span>.</h1>
+            <p class="hero-text">
+              I design and build modern digital products with clean user
+              experiences, scalable architecture, and measurable business
+              impact.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Let’s Work Together</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>At a glance</h2>
+            <ul>
+              <li>5+ years crafting full-stack applications</li>
+              <li>Focused on performance, accessibility, and UX</li>
+              <li>Experience shipping products from idea to launch</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2>About Me</h2>
+        <p>
+          I’m Yamen Barakat, a passionate developer who loves turning ideas into
+          polished, high-impact products. I collaborate closely with teams,
+          communicate clearly, and prioritize solutions that are both technically
+          robust and delightful to use.
+        </p>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Frontend</h3>
+              <p>React, TypeScript, Next.js, Tailwind CSS, accessible UI systems.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Backend</h3>
+              <p>Node.js, Express, REST APIs, authentication, relational databases.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Cloud & DevOps</h3>
+              <p>Docker, CI/CD, AWS basics, monitoring, and production deployment.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Collaboration</h3>
+              <p>Agile workflows, product thinking, code reviews, and mentoring.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>SaaS Analytics Dashboard</h3>
+            <p>
+              Designed and developed a real-time analytics platform with custom
+              reporting, role-based access, and data visualizations.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>E-commerce Experience Redesign</h3>
+            <p>
+              Rebuilt storefront architecture and checkout flow, reducing bounce
+              rate and increasing conversion performance.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Internal Workflow Automation Suite</h3>
+            <p>
+              Built internal tools that automated repetitive tasks, cutting
+              operational overhead and improving delivery speed.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container contact">
+          <h2>Let’s Connect</h2>
+          <p>
+            Open to freelance collaborations, full-time roles, and ambitious
+            product ideas.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:yamen.barakat@example.com">yamen.barakat@example.com</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Yamen Barakat. Built with care.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
